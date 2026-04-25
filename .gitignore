@@ -1,0 +1,21 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+teacher/.state_backups/
+
+# Local-only third-party source materials. Keep self-authored guides,
+# dossiers, question banks, and system files tracked; do not publish
+# raw book/article/report imports by default.
+resources/01_macro/ARKInvest_090320_Bitcoin_PART_1_2026-03-06-01_06_37.md
+resources/01_macro/Broken-Money_-Why-Our-Financial-System-is-Failing-Us-and-How----Lyn-Alden----1,-2023----Independently-published----9788988666302----a9a97974407105c4d61eceeb196ae17c----Anna’s-Archive_2026-03-06-01_08_17.md
+resources/01_macro/Emerging_Tech_Bitcoin_Crypto_2026-03-06-01_04_30.md
+resources/01_macro/The-Bitcoin-Standard_-The-Decentralized-Alternative-to----Saifedean-Ammous----2018----d169c0c94fbf0eff1a47d590850e05cc----Anna’s-Archive_2026-03-06-01_05_38.md
+resources/02_risk/A Beginner's Guide to Risk Management.md
+resources/02_risk/Five Risk Management Strategies.md
+resources/02_risk/The-Art-and-Science-of-Technical-Analysis_-Market-Structure,----Adam-Grimes----2012----Wiley----a9f7269a6c54384b8ccf5ea3df41b2f5----Anna’s-Archive_2026-03-06-01_10_14.md
+resources/02_risk/Trading-in-the-Zone-_-Master-the-Market-with-Confidence,----Mark-Douglas;-foreword-by-Thom-Hartle----1,-2001----Prentice-Hall-Press----9780735201446----cb22178544f2cfce086a04eeaa88eaf4----Anna’s-Archive_2026-03-06-01_09_14.md
+resources/02_risk/What Are Stop-Loss and Take-Profit Levels and How to Calculate Them.md
+resources/02_risk/What Is a Trading Journal and How to Use One.md
+resources/03_onchain/Cryptoassets_-The-Innovative-Investor's-Guide-to-Bitcoin-and----Chris-Burniske-&&-Jack-Tatar----2017----5068257866adc4fd3be993192ee3618d----Anna’s-Archive_2026-03-06-01_13_19.md
+resources/04_trading/The-Crypto-Trader------Glen-Goodman----2025----Harriman-House----d1280aa14e6703aa344e48ac16d11b9f----Anna’s-Archive_2026-03-06-01_11_38.md
