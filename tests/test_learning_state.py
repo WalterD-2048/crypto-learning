@@ -315,6 +315,35 @@ class LearningStateTests(unittest.TestCase):
             learning_state.resource_references_for_skill(skill),
         )
 
+    def test_macro_cycle_skills_reference_shared_question_bank(self) -> None:
+        skill = learning_state.Skill(
+            skill_id="SK-013",
+            name="减半周期的价格传导逻辑",
+            description="desc",
+            prereq_text="SK-012",
+            prereqs=("SK-012",),
+            mastery_standard="10题答对8题",
+            status="⬜ 未学",
+            concept_completed="—",
+            first_mastery_date=None,
+            latest_mastery_date=None,
+            delayed_validation_due=None,
+            delayed_validation_passed_date=None,
+            last_practice=None,
+            history_accuracies=(),
+            review_due=None,
+            review_round=0,
+        )
+
+        self.assertEqual(
+            learning_state.question_bank_reference_for_skill(skill),
+            "`resources/question_banks/SK-005_018_macro_bitcoin_cycle_bank.md`",
+        )
+        self.assertIn(
+            "`resources/question_banks/SK-005_018_macro_bitcoin_cycle_bank.md`",
+            learning_state.resource_references_for_skill(skill)[0],
+        )
+
     def test_execution_skill_references_point_to_section_level_materials(self) -> None:
         funding_skill = learning_state.Skill(
             skill_id="SK-044",

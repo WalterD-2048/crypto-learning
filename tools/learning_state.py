@@ -498,6 +498,20 @@ QUESTION_BANK_REFERENCES = {
     "SK-002": "`resources/question_banks/SK-001_003_money_foundations_bank.md`",
     "SK-003": "`resources/question_banks/SK-001_003_money_foundations_bank.md`",
     "SK-004": "`resources/question_banks/SK-004_inflation_mechanism_bank.md`",
+    "SK-005": "`resources/question_banks/SK-005_018_macro_bitcoin_cycle_bank.md`",
+    "SK-006": "`resources/question_banks/SK-005_018_macro_bitcoin_cycle_bank.md`",
+    "SK-007": "`resources/question_banks/SK-005_018_macro_bitcoin_cycle_bank.md`",
+    "SK-008": "`resources/question_banks/SK-005_018_macro_bitcoin_cycle_bank.md`",
+    "SK-009": "`resources/question_banks/SK-005_018_macro_bitcoin_cycle_bank.md`",
+    "SK-010": "`resources/question_banks/SK-005_018_macro_bitcoin_cycle_bank.md`",
+    "SK-011": "`resources/question_banks/SK-005_018_macro_bitcoin_cycle_bank.md`",
+    "SK-012": "`resources/question_banks/SK-005_018_macro_bitcoin_cycle_bank.md`",
+    "SK-013": "`resources/question_banks/SK-005_018_macro_bitcoin_cycle_bank.md`",
+    "SK-014": "`resources/question_banks/SK-005_018_macro_bitcoin_cycle_bank.md`",
+    "SK-015": "`resources/question_banks/SK-005_018_macro_bitcoin_cycle_bank.md`",
+    "SK-016": "`resources/question_banks/SK-005_018_macro_bitcoin_cycle_bank.md`",
+    "SK-017": "`resources/question_banks/SK-005_018_macro_bitcoin_cycle_bank.md`",
+    "SK-018": "`resources/question_banks/SK-005_018_macro_bitcoin_cycle_bank.md`",
     "SK-019": "`resources/question_banks/SK-019_probability_vs_result_bank.md`",
     "SK-020": "`resources/question_banks/SK-020_cognitive_bias_bank.md`",
     "SK-021": "`resources/question_banks/SK-021_expectancy_bank.md`",
@@ -543,16 +557,19 @@ MACRO_FOUNDATION_RESOURCES = (
     "`resources/01_macro/lyn_alden_3_reasons_bitcoin.md`",
 )
 MONETARY_EXPANSION_RESOURCES = (
+    "`resources/question_banks/SK-005_018_macro_bitcoin_cycle_bank.md`",
     "《Broken Money》",
     "`resources/01_macro/lyn_alden_3_reasons_bitcoin.md`",
     "ARK Invest Bitcoin research report（local-only source material）",
 )
 BITCOIN_MECHANICS_RESOURCES = (
+    "`resources/question_banks/SK-005_018_macro_bitcoin_cycle_bank.md`",
     "`resources/01_macro/bitcoin_whitepaper_guide.md`",
     "Emerging Tech Bitcoin/Crypto research report（local-only source material）",
     "《The Bitcoin Standard》",
 )
 MACRO_CYCLE_RESOURCES = (
+    "`resources/question_banks/SK-005_018_macro_bitcoin_cycle_bank.md`",
     "《Broken Money》",
     "ARK Invest Bitcoin research report（local-only source material）",
     "`resources/01_macro/lyn_alden_3_reasons_bitcoin.md`",

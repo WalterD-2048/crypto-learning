@@ -138,7 +138,7 @@
 - **描述**：能说明法币的信任依赖和无上限发行两个核心缺陷，并联系SK-003的健全货币标准
 - **前置技能**：SK-004
 - **掌握标准**：10题答对8题
-- **主要参考资源**：《Broken Money》；`resources/01_macro/lyn_alden_3_reasons_bitcoin.md`；ARK Invest Bitcoin research report（local-only source material）
+- **主要参考资源**：`resources/question_banks/SK-005_018_macro_bitcoin_cycle_bank.md`；《Broken Money》；`resources/01_macro/lyn_alden_3_reasons_bitcoin.md`；ARK Invest Bitcoin research report（local-only source material）
 - **状态**：🔒 未解锁
 - **概念课完成**：—
 - **首次掌握日期**：—
@@ -157,7 +157,7 @@
 - **描述**：能解释什么是双花问题，以及传统数字支付为何必须依赖中介才能解决
 - **前置技能**：SK-005
 - **掌握标准**：10题答对8题
-- **主要参考资源**：`resources/01_macro/bitcoin_whitepaper_guide.md`；Emerging Tech Bitcoin/Crypto research report（local-only source material）；《The Bitcoin Standard》
+- **主要参考资源**：`resources/question_banks/SK-005_018_macro_bitcoin_cycle_bank.md`；`resources/01_macro/bitcoin_whitepaper_guide.md`；Emerging Tech Bitcoin/Crypto research report（local-only source material）；《The Bitcoin Standard》
 - **状态**：🔒 未解锁
 - **概念课完成**：—
 - **首次掌握日期**：—
@@ -176,7 +176,7 @@
 - **描述**：能解释分布式账本的结构，说明为什么去中心化账本可以在没有中介的情况下防止双花
 - **前置技能**：SK-006
 - **掌握标准**：10题答对8题
-- **主要参考资源**：`resources/01_macro/bitcoin_whitepaper_guide.md`；Emerging Tech Bitcoin/Crypto research report（local-only source material）；《The Bitcoin Standard》
+- **主要参考资源**：`resources/question_banks/SK-005_018_macro_bitcoin_cycle_bank.md`；`resources/01_macro/bitcoin_whitepaper_guide.md`；Emerging Tech Bitcoin/Crypto research report（local-only source material）；《The Bitcoin Standard》
 - **状态**：🔒 未解锁
 - **概念课完成**：—
 - **首次掌握日期**：—
@@ -195,7 +195,7 @@
 - **描述**：能解释矿工做什么、为什么诚实挖矿比攻击网络更有利可图
 - **前置技能**：SK-007
 - **掌握标准**：10题答对8题
-- **主要参考资源**：`resources/01_macro/bitcoin_whitepaper_guide.md`；Emerging Tech Bitcoin/Crypto research report（local-only source material）；《The Bitcoin Standard》
+- **主要参考资源**：`resources/question_banks/SK-005_018_macro_bitcoin_cycle_bank.md`；`resources/01_macro/bitcoin_whitepaper_guide.md`；Emerging Tech Bitcoin/Crypto research report（local-only source material）；《The Bitcoin Standard》
 - **状态**：🔒 未解锁
 - **概念课完成**：—
 - **首次掌握日期**：—
@@ -214,7 +214,7 @@
 - **描述**：能解释比特币如何用UTXO追踪所有权，与账户模型的核心区别是什么
 - **前置技能**：SK-007
 - **掌握标准**：10题答对8题
-- **主要参考资源**：`resources/01_macro/bitcoin_whitepaper_guide.md`；Emerging Tech Bitcoin/Crypto research report（local-only source material）；《The Bitcoin Standard》
+- **主要参考资源**：`resources/question_banks/SK-005_018_macro_bitcoin_cycle_bank.md`；`resources/01_macro/bitcoin_whitepaper_guide.md`；Emerging Tech Bitcoin/Crypto research report（local-only source material）；《The Bitcoin Standard》
 - **状态**：🔒 未解锁
 - **概念课完成**：—
 - **首次掌握日期**：—
@@ -233,7 +233,7 @@
 - **描述**：能解释2100万上限如何被编码进协议，以及它对货币属性的意义
 - **前置技能**：SK-008
 - **掌握标准**：10题答对8题
-- **主要参考资源**：`resources/01_macro/bitcoin_whitepaper_guide.md`；Emerging Tech Bitcoin/Crypto research report（local-only source material）；《The Bitcoin Standard》
+- **主要参考资源**：`resources/question_banks/SK-005_018_macro_bitcoin_cycle_bank.md`；`resources/01_macro/bitcoin_whitepaper_guide.md`；Emerging Tech Bitcoin/Crypto research report（local-only source material）；《The Bitcoin Standard》
 - **状态**：🔒 未解锁
 - **概念课完成**：—
 - **首次掌握日期**：—
@@ -252,7 +252,7 @@
 - **描述**：能说明三者的派生关系，解释为什么丢失私钥意味着永久失去比特币
 - **前置技能**：SK-009
 - **掌握标准**：10题答对8题
-- **主要参考资源**：《Broken Money》；ARK Invest Bitcoin research report（local-only source material）；`resources/01_macro/lyn_alden_3_reasons_bitcoin.md`
+- **主要参考资源**：`resources/question_banks/SK-005_018_macro_bitcoin_cycle_bank.md`；《Broken Money》；ARK Invest Bitcoin research report（local-only source material）；`resources/01_macro/lyn_alden_3_reasons_bitcoin.md`
 - **状态**：🔒 未解锁
 - **概念课完成**：—
 - **首次掌握日期**：—
@@ -271,7 +271,7 @@
 - **描述**：能解释减半是什么、何时触发（每21万个区块）、每次减半后供给如何变化
 - **前置技能**：SK-010
 - **掌握标准**：10题答对8题
-- **主要参考资源**：《Broken Money》；ARK Invest Bitcoin research report（local-only source material）；`resources/01_macro/lyn_alden_3_reasons_bitcoin.md`
+- **主要参考资源**：`resources/question_banks/SK-005_018_macro_bitcoin_cycle_bank.md`；《Broken Money》；ARK Invest Bitcoin research report（local-only source material）；`resources/01_macro/lyn_alden_3_reasons_bitcoin.md`
 - **状态**：🔒 未解锁
 - **概念课完成**：—
 - **首次掌握日期**：—
@@ -290,7 +290,7 @@
 - **描述**：能用供给冲击→需求不变→价格上升的逻辑链解释减半与价格的关系，并能指出该逻辑的局限
 - **前置技能**：SK-012
 - **掌握标准**：10题答对8题
-- **主要参考资源**：《Broken Money》；ARK Invest Bitcoin research report（local-only source material）；`resources/01_macro/lyn_alden_3_reasons_bitcoin.md`
+- **主要参考资源**：`resources/question_banks/SK-005_018_macro_bitcoin_cycle_bank.md`；《Broken Money》；ARK Invest Bitcoin research report（local-only source material）；`resources/01_macro/lyn_alden_3_reasons_bitcoin.md`
 - **状态**：🔒 未解锁
 - **概念课完成**：—
 - **首次掌握日期**：—
@@ -309,7 +309,7 @@
 - **描述**：能计算S2F比率，对比比特币与黄金的S2F值，并解释该指标的含义与争议
 - **前置技能**：SK-013
 - **掌握标准**：10题答对8题
-- **主要参考资源**：《Broken Money》；ARK Invest Bitcoin research report（local-only source material）；`resources/01_macro/lyn_alden_3_reasons_bitcoin.md`
+- **主要参考资源**：`resources/question_banks/SK-005_018_macro_bitcoin_cycle_bank.md`；《Broken Money》；ARK Invest Bitcoin research report（local-only source material）；`resources/01_macro/lyn_alden_3_reasons_bitcoin.md`
 - **状态**：🔒 未解锁
 - **概念课完成**：—
 - **首次掌握日期**：—
@@ -328,7 +328,7 @@
 - **描述**：能描述上涨→过热→崩盘→积累四阶段的共同特征，并能对应到历史时间线
 - **前置技能**：SK-013
 - **掌握标准**：10题答对8题
-- **主要参考资源**：《Broken Money》；ARK Invest Bitcoin research report（local-only source material）；`resources/01_macro/lyn_alden_3_reasons_bitcoin.md`
+- **主要参考资源**：`resources/question_banks/SK-005_018_macro_bitcoin_cycle_bank.md`；《Broken Money》；ARK Invest Bitcoin research report（local-only source material）；`resources/01_macro/lyn_alden_3_reasons_bitcoin.md`
 - **状态**：🔒 未解锁
 - **概念课完成**：—
 - **首次掌握日期**：—
@@ -347,7 +347,7 @@
 - **描述**：能解释比特币的网络效应如何形成护城河，以及为什么山寨币在价值储存叙事上难以取代它
 - **前置技能**：SK-010
 - **掌握标准**：10题答对8题
-- **主要参考资源**：《Broken Money》；ARK Invest Bitcoin research report（local-only source material）；`resources/01_macro/lyn_alden_3_reasons_bitcoin.md`
+- **主要参考资源**：`resources/question_banks/SK-005_018_macro_bitcoin_cycle_bank.md`；《Broken Money》；ARK Invest Bitcoin research report（local-only source material）；`resources/01_macro/lyn_alden_3_reasons_bitcoin.md`
 - **状态**：🔒 未解锁
 - **概念课完成**：—
 - **首次掌握日期**：—
@@ -366,7 +366,7 @@
 - **描述**：能解释利率变化、QE周期、风险资产相关性如何影响比特币价格，举出具体历史案例
 - **前置技能**：SK-015
 - **掌握标准**：10题答对8题
-- **主要参考资源**：《Broken Money》；ARK Invest Bitcoin research report（local-only source material）；`resources/01_macro/lyn_alden_3_reasons_bitcoin.md`
+- **主要参考资源**：`resources/question_banks/SK-005_018_macro_bitcoin_cycle_bank.md`；《Broken Money》；ARK Invest Bitcoin research report（local-only source material）；`resources/01_macro/lyn_alden_3_reasons_bitcoin.md`
 - **状态**：🔒 未解锁
 - **概念课完成**：—
 - **首次掌握日期**：—
@@ -385,7 +385,7 @@
 - **描述**：能解释TAM模型和黄金对标两种估值逻辑，说明各自的假设前提和局限性
 - **前置技能**：SK-014, SK-017
 - **掌握标准**：10题答对8题
-- **主要参考资源**：《Broken Money》；ARK Invest Bitcoin research report（local-only source material）；`resources/01_macro/lyn_alden_3_reasons_bitcoin.md`
+- **主要参考资源**：`resources/question_banks/SK-005_018_macro_bitcoin_cycle_bank.md`；《Broken Money》；ARK Invest Bitcoin research report（local-only source material）；`resources/01_macro/lyn_alden_3_reasons_bitcoin.md`
 - **状态**：🔒 未解锁
 - **概念课完成**：—
 - **首次掌握日期**：—
