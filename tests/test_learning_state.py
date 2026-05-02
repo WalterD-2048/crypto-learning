@@ -286,6 +286,35 @@ class LearningStateTests(unittest.TestCase):
             "`resources/question_banks/SK-052_three_framework_synthesis_bank.md`",
         )
 
+    def test_foundation_skills_reference_shared_review_question_bank(self) -> None:
+        skill = learning_state.Skill(
+            skill_id="SK-001",
+            name="货币的三个职能",
+            description="desc",
+            prereq_text="无",
+            prereqs=(),
+            mastery_standard="10题答对8题",
+            status="✅ 已掌握",
+            concept_completed="2026-03-12",
+            first_mastery_date=date(2026, 3, 12),
+            latest_mastery_date=date(2026, 3, 12),
+            delayed_validation_due=None,
+            delayed_validation_passed_date=date(2026, 3, 12),
+            last_practice=date(2026, 3, 12),
+            history_accuracies=("8/10",),
+            review_due=date(2026, 3, 19),
+            review_round=0,
+        )
+
+        self.assertEqual(
+            learning_state.question_bank_reference_for_skill(skill),
+            "`resources/question_banks/SK-001_003_money_foundations_bank.md`",
+        )
+        self.assertIn(
+            "`resources/question_banks/SK-001_003_money_foundations_bank.md`",
+            learning_state.resource_references_for_skill(skill),
+        )
+
     def test_execution_skill_references_point_to_section_level_materials(self) -> None:
         funding_skill = learning_state.Skill(
             skill_id="SK-044",
@@ -447,6 +476,20 @@ class LearningStateTests(unittest.TestCase):
             self.assertNotIn(fragment, rendered_text)
         self.assertIn("local-only source material", rendered_text)
 
+    def test_validate_configured_resource_references_detects_missing_file(self) -> None:
+        original_reference = learning_state.QUESTION_BANK_REFERENCES["SK-001"]
+        try:
+            learning_state.QUESTION_BANK_REFERENCES["SK-001"] = (
+                "`resources/question_banks/DOES_NOT_EXIST.md`"
+            )
+            errors = learning_state.validate_configured_resource_references()
+        finally:
+            learning_state.QUESTION_BANK_REFERENCES["SK-001"] = original_reference
+
+        self.assertTrue(
+            any("resources/question_banks/DOES_NOT_EXIST.md" in error for error in errors)
+        )
+
     def test_session_briefing_lists_case_dossier_for_case_skill(self) -> None:
         skills = [
             learning_state.Skill(
@@ -552,6 +595,9 @@ class LearningStateTests(unittest.TestCase):
             "- **题库 / 评分 rubric**：`resources/question_banks/SK-019_probability_vs_result_bank.md`",
             briefing,
         )
+        self.assertIn("## 本节记录要求", briefing)
+        self.assertIn("`题库题号`", briefing)
+        self.assertIn("resources/research_dossier_template.md", briefing)
 
     def test_normalize_homework_log_orders_retry_between_attempts(self) -> None:
         raw = textwrap.dedent(

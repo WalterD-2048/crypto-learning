@@ -494,6 +494,9 @@ CASE_DOSSIER_REFERENCES = {
     "SK-056": "`resources/cases/2025-10_crypto_flash_crash_dossier.md`",
 }
 QUESTION_BANK_REFERENCES = {
+    "SK-001": "`resources/question_banks/SK-001_003_money_foundations_bank.md`",
+    "SK-002": "`resources/question_banks/SK-001_003_money_foundations_bank.md`",
+    "SK-003": "`resources/question_banks/SK-001_003_money_foundations_bank.md`",
     "SK-004": "`resources/question_banks/SK-004_inflation_mechanism_bank.md`",
     "SK-019": "`resources/question_banks/SK-019_probability_vs_result_bank.md`",
     "SK-020": "`resources/question_banks/SK-020_cognitive_bias_bank.md`",
@@ -530,6 +533,7 @@ CASE_RETRO_FOCUS = {
     "基础记忆提取": "复盘时先做最小要点清单，再回到场景判断。",
 }
 MACRO_FOUNDATION_RESOURCES = (
+    "`resources/question_banks/SK-001_003_money_foundations_bank.md`",
     "`resources/cases/ww2_pow_cigarette_money_dossier.md`",
     "`resources/cases/1933_gold_confiscation_dossier.md`",
     "`resources/cases/1871_rai_stones_dossier.md`",
@@ -2089,6 +2093,11 @@ def render_session_briefing(
     else:
         lines.append("2. 暂无稳定弱点数据，按默认题型比例执行。")
     lines.append("2. 复习 / 延迟验证时不做概念讲解，只按到期技能点短测或复习。")
+
+    lines.extend(["", "## 本节记录要求", ""])
+    lines.append("- 概念课记录：`案例 dossier`、`案例切片`、`资源段落`、`证据包条目`、`图示编号`、当时已知/未知、当下判断、结果揭示、偏差复盘。")
+    lines.append("- 练习 / 复习记录：题目表优先写 `题库题号`，并补 `题库来源`、`使用资源段落`、`使用图示`、`错误模式`，用于内容效果追踪。")
+    lines.append("- 调研任务：使用 `resources/research_dossier_template.md`，记录 claim、evidence、source、uncertainty、counterexample 和结论边界；不得写成直接交易建议。")
 
     lines.extend(["", "## 今日优先技能点", ""])
     if not priority_skills:
@@ -4403,6 +4412,57 @@ def validate_generated_freshness(
     return errors
 
 
+def extract_repo_native_paths(reference: str) -> list[Path]:
+    paths: list[Path] = []
+    for raw_path in re.findall(r"`([^`]+)`", reference):
+        normalized = raw_path.split("#", 1)[0].strip()
+        if normalized.startswith(("resources/", "teacher/", "docs/")):
+            paths.append(ROOT / normalized)
+    return paths
+
+
+def validate_configured_resource_references() -> list[str]:
+    references: list[str] = [
+        "`resources/research_dossier_template.md`",
+    ]
+    for number in range(1, 58):
+        skill = Skill(
+            skill_id=f"SK-{number:03d}",
+            name=f"SK-{number:03d}",
+            description="",
+            prereq_text="无",
+            prereqs=(),
+            mastery_standard="",
+            status="⬜ 未学",
+            concept_completed="—",
+            first_mastery_date=None,
+            latest_mastery_date=None,
+            delayed_validation_due=None,
+            delayed_validation_passed_date=None,
+            last_practice=None,
+            history_accuracies=(),
+            review_due=None,
+            review_round=0,
+        )
+        references.extend(resource_references_for_skill(skill))
+        references.append(case_dossier_reference_for_skill(skill))
+        references.append(question_bank_reference_for_skill(skill))
+        references.append(case_template_for_skill(skill, [])["source"])
+
+    errors: list[str] = []
+    seen: set[Path] = set()
+    for reference in references:
+        for path in extract_repo_native_paths(reference):
+            if path in seen:
+                continue
+            seen.add(path)
+            if not path.exists():
+                errors.append(
+                    f"configured resource reference does not exist: {relative_display_path(path)}"
+                )
+    return errors
+
+
 def main() -> int:
     args = parse_args()
     today = date.fromisoformat(args.today) if args.today else date.today()
@@ -4451,6 +4511,7 @@ def main() -> int:
     structure_warnings = validate_homework_structure(homework_log_text)
     archive_warnings = validate_session_archive_structure(session_archive_text)
     archive_errors, archive_entry_warnings = validate_session_archive_entries(archive_entries)
+    configured_reference_errors = validate_configured_resource_references()
     warnings = [
         *skill_warnings,
         *skill_history_warnings,
@@ -4492,7 +4553,7 @@ def main() -> int:
     changed_outputs = collect_changed_outputs(desired_outputs)
 
     if args.command == "check":
-        errors = [*skill_errors, *skill_history_errors, *archive_errors]
+        errors = [*skill_errors, *skill_history_errors, *archive_errors, *configured_reference_errors]
         errors.extend(
             validate_generated_freshness(
                 {
@@ -4572,7 +4633,7 @@ def main() -> int:
     else:
         print("No generated files changed.")
 
-    combined_errors = [*skill_errors, *skill_history_errors, *archive_errors]
+    combined_errors = [*skill_errors, *skill_history_errors, *archive_errors, *configured_reference_errors]
     if combined_errors:
         for error in combined_errors:
             print(f"ERROR: {error}")

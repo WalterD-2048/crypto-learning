@@ -62,7 +62,7 @@
 - **描述**：能准确说明交换媒介、价值储存、记账单位三个职能，并能举例区分
 - **前置技能**：无
 - **掌握标准**：10题答对8题
-- **主要参考资源**：`resources/cases/ww2_pow_cigarette_money_dossier.md`；`resources/cases/1933_gold_confiscation_dossier.md`；`resources/cases/1871_rai_stones_dossier.md`；`resources/cases/1971-08_nixon_shock_dossier.md`；《The Bitcoin Standard》；《Broken Money》；`resources/01_macro/lyn_alden_3_reasons_bitcoin.md`
+- **主要参考资源**：`resources/question_banks/SK-001_003_money_foundations_bank.md`；`resources/cases/ww2_pow_cigarette_money_dossier.md`；`resources/cases/1933_gold_confiscation_dossier.md`；`resources/cases/1871_rai_stones_dossier.md`；`resources/cases/1971-08_nixon_shock_dossier.md`；《The Bitcoin Standard》；《Broken Money》；`resources/01_macro/lyn_alden_3_reasons_bitcoin.md`
 - **状态**：✅ 已掌握
 - **概念课完成**：2026-04-07
 - **首次掌握日期**：2026-03-09
@@ -81,7 +81,7 @@
 - **描述**：能列举并解释稀缺、耐久、便携、可分、可验、可替换六个属性，并用它们评价任意一种货币
 - **前置技能**：SK-001
 - **掌握标准**：10题答对8题
-- **主要参考资源**：`resources/cases/ww2_pow_cigarette_money_dossier.md`；`resources/cases/1933_gold_confiscation_dossier.md`；`resources/cases/1871_rai_stones_dossier.md`；`resources/cases/1971-08_nixon_shock_dossier.md`；《The Bitcoin Standard》；《Broken Money》；`resources/01_macro/lyn_alden_3_reasons_bitcoin.md`
+- **主要参考资源**：`resources/question_banks/SK-001_003_money_foundations_bank.md`；`resources/cases/ww2_pow_cigarette_money_dossier.md`；`resources/cases/1933_gold_confiscation_dossier.md`；`resources/cases/1871_rai_stones_dossier.md`；`resources/cases/1971-08_nixon_shock_dossier.md`；《The Bitcoin Standard》；《Broken Money》；`resources/01_macro/lyn_alden_3_reasons_bitcoin.md`
 - **状态**：✅ 已掌握
 - **概念课完成**：2026-03-12（重修 2026-04-07，重修2 2026-04-08）
 - **首次掌握日期**：2026-04-08
@@ -100,7 +100,7 @@
 - **描述**：给定一种货币，能用六属性框架判断其健全程度，并说明最薄弱的属性是哪条
 - **前置技能**：SK-002
 - **掌握标准**：10题答对8题
-- **主要参考资源**：`resources/cases/ww2_pow_cigarette_money_dossier.md`；`resources/cases/1933_gold_confiscation_dossier.md`；`resources/cases/1871_rai_stones_dossier.md`；`resources/cases/1971-08_nixon_shock_dossier.md`；《The Bitcoin Standard》；《Broken Money》；`resources/01_macro/lyn_alden_3_reasons_bitcoin.md`
+- **主要参考资源**：`resources/question_banks/SK-001_003_money_foundations_bank.md`；`resources/cases/ww2_pow_cigarette_money_dossier.md`；`resources/cases/1933_gold_confiscation_dossier.md`；`resources/cases/1871_rai_stones_dossier.md`；`resources/cases/1971-08_nixon_shock_dossier.md`；《The Bitcoin Standard》；《Broken Money》；`resources/01_macro/lyn_alden_3_reasons_bitcoin.md`
 - **状态**：✅ 已掌握
 - **概念课完成**：2026-04-08（重修 2026-04-09）
 - **首次掌握日期**：2026-04-09

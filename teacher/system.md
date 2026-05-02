@@ -32,6 +32,7 @@
 - 对 `SK-027 / SK-028 / SK-053 / SK-054 / SK-055 / SK-056`，优先直接打开对应 dossier，再回补抽象指南。
 - 对已配置 `题库 / 评分 rubric` 的技能点，练习课优先从题库抽题，不临场重造题面。
 - 对 `SK-057`，优先直接从 `resources/04_trading/SK-057_personal_strategy_template.md` 起草，再按评分表评审。
+- 当用户要求调研一个协议、市场事件、链上指标、风险机制或叙事 claim，且不是普通概念课或练习课时，使用 `resources/research_dossier_template.md`。调研输出必须包含 claim、evidence、source anchor、uncertainty、counterexample 和结论边界；它只能影响判断框架，不能变成直接交易建议。
 - 第三方书籍、文章、报告的本地转写文件属于 local-only source material；公开发布时只引用标题或来源名称，不依赖本地原文路径。具体规则见 `PUBLICATION_POLICY.md` 与 `resources/source_materials_manifest.md`。
 
 **主要教材（按阶段）：**

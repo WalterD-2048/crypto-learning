@@ -39,13 +39,20 @@
 - `边界条件与反例构造`：增加 `反例构造` 与边界条件题，不接受只给结论。
 2. 复习 / 延迟验证时不做概念讲解，只按到期技能点短测或复习。
 
+## 本节记录要求
+
+- 概念课记录：`案例 dossier`、`案例切片`、`资源段落`、`证据包条目`、`图示编号`、当时已知/未知、当下判断、结果揭示、偏差复盘。
+- 练习 / 复习记录：题目表优先写 `题库题号`，并补 `题库来源`、`使用资源段落`、`使用图示`、`错误模式`，用于内容效果追踪。
+- 调研任务：使用 `resources/research_dossier_template.md`，记录 claim、evidence、source、uncertainty、counterexample 和结论边界；不得写成直接交易建议。
+
 ## 今日优先技能点
 
 ### SK-001：货币的三个职能
 
 - **建议模式**：复习课
 - **当前原因**：第1次复习到期 2026-04-14，已逾期 18 天；优先原因：最近错误模式 1 类；已逾期 18 天
-- **参考资源**：`resources/cases/ww2_pow_cigarette_money_dossier.md`；`resources/cases/1933_gold_confiscation_dossier.md`；`resources/cases/1871_rai_stones_dossier.md`；`resources/cases/1971-08_nixon_shock_dossier.md`；《The Bitcoin Standard》；《Broken Money》；`resources/01_macro/lyn_alden_3_reasons_bitcoin.md`
+- **参考资源**：`resources/question_banks/SK-001_003_money_foundations_bank.md`；`resources/cases/ww2_pow_cigarette_money_dossier.md`；`resources/cases/1933_gold_confiscation_dossier.md`；`resources/cases/1871_rai_stones_dossier.md`；`resources/cases/1971-08_nixon_shock_dossier.md`；《The Bitcoin Standard》；《Broken Money》；`resources/01_macro/lyn_alden_3_reasons_bitcoin.md`
+- **题库 / 评分 rubric**：`resources/question_banks/SK-001_003_money_foundations_bank.md`
 - **最近结果**：2026-04-07 8/10（80%） ✅ 掌握
 - **遗留问题**：记账单位识别（标价、锚定类场景）仍需在复习中强化
 - **强制教学动作**：无
@@ -59,7 +66,8 @@
 
 - **建议模式**：复习课
 - **当前原因**：第1次复习到期 2026-04-15，已逾期 17 天；优先原因：最近错误模式 1 类；已逾期 17 天
-- **参考资源**：`resources/cases/ww2_pow_cigarette_money_dossier.md`；`resources/cases/1933_gold_confiscation_dossier.md`；`resources/cases/1871_rai_stones_dossier.md`；`resources/cases/1971-08_nixon_shock_dossier.md`；《The Bitcoin Standard》；《Broken Money》；`resources/01_macro/lyn_alden_3_reasons_bitcoin.md`
+- **参考资源**：`resources/question_banks/SK-001_003_money_foundations_bank.md`；`resources/cases/ww2_pow_cigarette_money_dossier.md`；`resources/cases/1933_gold_confiscation_dossier.md`；`resources/cases/1871_rai_stones_dossier.md`；`resources/cases/1971-08_nixon_shock_dossier.md`；《The Bitcoin Standard》；《Broken Money》；`resources/01_macro/lyn_alden_3_reasons_bitcoin.md`
+- **题库 / 评分 rubric**：`resources/question_banks/SK-001_003_money_foundations_bank.md`
 - **最近结果**：2026-04-08 9/10（90%） ✅ 掌握
 - **遗留问题**：辨析题仍是薄弱点（耐久vs可替换边界），反例构造论证精度不足，下次练习需达8/10
 - **强制教学动作**：无
@@ -73,7 +81,8 @@
 
 - **建议模式**：复习课
 - **当前原因**：第1次复习到期 2026-04-16，已逾期 16 天；优先原因：最近错误模式 2 类；已逾期 16 天
-- **参考资源**：`resources/cases/ww2_pow_cigarette_money_dossier.md`；`resources/cases/1933_gold_confiscation_dossier.md`；`resources/cases/1871_rai_stones_dossier.md`；`resources/cases/1971-08_nixon_shock_dossier.md`；《The Bitcoin Standard》；《Broken Money》；`resources/01_macro/lyn_alden_3_reasons_bitcoin.md`
+- **参考资源**：`resources/question_banks/SK-001_003_money_foundations_bank.md`；`resources/cases/ww2_pow_cigarette_money_dossier.md`；`resources/cases/1933_gold_confiscation_dossier.md`；`resources/cases/1871_rai_stones_dossier.md`；`resources/cases/1971-08_nixon_shock_dossier.md`；《The Bitcoin Standard》；《Broken Money》；`resources/01_macro/lyn_alden_3_reasons_bitcoin.md`
+- **题库 / 评分 rubric**：`resources/question_banks/SK-001_003_money_foundations_bank.md`
 - **最近结果**：2026-04-09 8/10（80%） ✅ 掌握
 - **遗留问题**：可替换性的场景识别仍需巩固；渐进变化的判断（避免非此即彼）
 - **强制教学动作**：无
