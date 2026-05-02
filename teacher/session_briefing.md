@@ -8,7 +8,7 @@
 
 ## 今日开场结论
 
-- **当前系统日期**：2026-04-26
+- **当前系统日期**：2026-05-02
 - **今日调度策略**：默认冻结新课
 - **执行说明**：当前有 3 个技能点复习到期。默认冻结新课，先清理复习债；只有用户明确要求时才打破。
 - **今日延迟验证**：无
@@ -44,7 +44,7 @@
 ### SK-001：货币的三个职能
 
 - **建议模式**：复习课
-- **当前原因**：第1次复习到期 2026-04-14，已逾期 12 天；优先原因：最近错误模式 1 类；已逾期 12 天
+- **当前原因**：第1次复习到期 2026-04-14，已逾期 18 天；优先原因：最近错误模式 1 类；已逾期 18 天
 - **参考资源**：`resources/cases/ww2_pow_cigarette_money_dossier.md`；`resources/cases/1933_gold_confiscation_dossier.md`；`resources/cases/1871_rai_stones_dossier.md`；`resources/cases/1971-08_nixon_shock_dossier.md`；《The Bitcoin Standard》；《Broken Money》；`resources/01_macro/lyn_alden_3_reasons_bitcoin.md`
 - **最近结果**：2026-04-07 8/10（80%） ✅ 掌握
 - **遗留问题**：记账单位识别（标价、锚定类场景）仍需在复习中强化
@@ -58,7 +58,7 @@
 ### SK-002：货币的六个属性
 
 - **建议模式**：复习课
-- **当前原因**：第1次复习到期 2026-04-15，已逾期 11 天；优先原因：最近错误模式 1 类；已逾期 11 天
+- **当前原因**：第1次复习到期 2026-04-15，已逾期 17 天；优先原因：最近错误模式 1 类；已逾期 17 天
 - **参考资源**：`resources/cases/ww2_pow_cigarette_money_dossier.md`；`resources/cases/1933_gold_confiscation_dossier.md`；`resources/cases/1871_rai_stones_dossier.md`；`resources/cases/1971-08_nixon_shock_dossier.md`；《The Bitcoin Standard》；《Broken Money》；`resources/01_macro/lyn_alden_3_reasons_bitcoin.md`
 - **最近结果**：2026-04-08 9/10（90%） ✅ 掌握
 - **遗留问题**：辨析题仍是薄弱点（耐久vs可替换边界），反例构造论证精度不足，下次练习需达8/10
@@ -72,7 +72,7 @@
 ### SK-003：健全货币 vs 不健全货币的判定标准
 
 - **建议模式**：复习课
-- **当前原因**：第1次复习到期 2026-04-16，已逾期 10 天；优先原因：最近错误模式 2 类；已逾期 10 天
+- **当前原因**：第1次复习到期 2026-04-16，已逾期 16 天；优先原因：最近错误模式 2 类；已逾期 16 天
 - **参考资源**：`resources/cases/ww2_pow_cigarette_money_dossier.md`；`resources/cases/1933_gold_confiscation_dossier.md`；`resources/cases/1871_rai_stones_dossier.md`；`resources/cases/1971-08_nixon_shock_dossier.md`；《The Bitcoin Standard》；《Broken Money》；`resources/01_macro/lyn_alden_3_reasons_bitcoin.md`
 - **最近结果**：2026-04-09 8/10（80%） ✅ 掌握
 - **遗留问题**：可替换性的场景识别仍需巩固；渐进变化的判断（避免非此即彼）
